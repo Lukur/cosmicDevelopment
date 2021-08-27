@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Company</title>
+</head>
+
+<body>
+  <!-- Search section -->
+  <section class="search">
+    <div class="container">
+      <div class="nav">
+        <!-- Company Logo -->
+        <div class="logo">
+          <img src="img/Logo@2x.png" alt="conpany logo" />
+        </div>
+        <!-- User - Search -->
+        <div class="user">
+          <img class="search-img" src="img/icn_search@2x.png" alt="search" />
+          <img class="person-img" src="img/icn_person@2x.png" alt="person" />
+        </div>
+      </div>
+    </div>
+    <!-- Search result -->
+    <div id="user-result" class="user-result">
+    </div>
+    <div id="loader-time">
+      <div id="loader"></div>
+    </div>
+    <div id="search-results">
+      <div>
+        <h1>0 Results</h1>
+        <p>Try starting a new search below</p>
+      </div>
+    </div>
+    <!-- Headline -->
+    <div id="container" class="container">
+      <div id="headline" class="headline">
+        <h1>Start Your Search!</h1>
+        <p class="text">
+          Look up for people’s name, photos and online profiles with their
+          email address or phone number. See what you find!
+        </p>
+      </div>
+      <div id="headline-results" class="headline-results">
+        <h1>Can’t Find The Right Person?</h1>
+        <p class="text-results"><span>Try Again</span> - Make a new search</p>
+      </div>
+      <!-- Search form -->
+      <div class="search-form">
+        <div class="type-of-search">
+          <p>TYPE OF SEARCH:</p>
+          <div class="swap email active" data-id="email">
+            EMAIL ADDRESS
+          </div>
+          <div class="swap phone static" data-id="phone">
+            PHONE NUMBER
+          </div>
+        </div>
+        <form class="form" id="form">
+          <div id="email" class="input hide show">
+            <input id="search" type="email" name="email" placeholder="Enter An Email Address" />
+            <p>Please enter a valid email address</p>
+          </div>
+          <div id="phone" class="input hide">
+            <input id="search" type="number" name="phone" placeholder="Enter A Phone Number" />
+            <p>Please enter a valid phone number</p>
+          </div>
+          <button class="button">
+            GO!
+          </button>
+        </form>
+        <div class="notification">
+          <img src="img/lock@2x.png" alt="lock">
+          <p>People in the search won't be notified.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="informaion" class="information">
+    <div class="container">
+      <div class="info-headline">
+        <h1>Here’s How It Works</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="grid">
+        <ul>
+          <li>
+            <div>
+              <span>1</span>
+            </div>
+            <div>
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>2</span>
+            </div>
+            <div>
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>3</span>
+            </div>
+            <div>
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>4</span>
+            </div>
+            <div>
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>5</span>
+            </div>
+            <div>
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>6</span>
+            </div>
+            <div>
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+    <p class="privacy">Terms | Privacy</p>
+  </section>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>
